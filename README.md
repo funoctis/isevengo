@@ -10,6 +10,10 @@ This wrapper can be used to access the API easily in Go application. The wrapper
 
 ## Usage
 
+Install Dependency:
+
+    go get github.com/funoctis/isevengo
+
 Check if a number is even:
 
     isNumEven, err  := isevengo.IsEven(num)
